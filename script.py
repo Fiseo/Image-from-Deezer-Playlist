@@ -2,8 +2,8 @@ from PIL import Image, ImageDraw, ImageFont
 import requests, re
 
 
-playlist_id = 13307921723
-download_path = r"C:\Users\virgi\Pictures\Saved Pictures\TierList\image\Musique-Playlist"
+playlist_id = # Insert the Id of your playlist
+download_path = r"" # Insert the path to the folder which you want to contain the pictures
 
 
 
@@ -42,8 +42,8 @@ if response is not None:
             draw = ImageDraw.Draw(img)
 
             width, height = img.size
-            margin_x = int(width * 0.02)  # 2% de largeur
-            margin_y = int(height * 0.02)  # 2% de hauteur
+            margin_x = int(width * 0.02)
+            margin_y = int(height * 0.02)
 
             x = margin_x
             y = height - margin_y
