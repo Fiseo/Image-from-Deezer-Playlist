@@ -14,5 +14,6 @@ The main goal of this script is to collect tracks from a Deezer playlist in orde
 
 ## Warning
 
+- The playlist need to be public
 - It may happen that some albums don't have a `cover_big`.
 - I chose the font used because it supports both Japanese and French characters (which are included in my playlist). Feel free to change it to one that fits yours better.
